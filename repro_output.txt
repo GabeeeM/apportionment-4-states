@@ -1,0 +1,15 @@
+Gadget: all relabelings of 5 shapes = 60 profiles, house size 24
+  shape (1, 1, 3, 26): quotas Rational{Int64}[24//31, 24//31, 72//31, 624//31]  ([0.774, 0.774, 2.323, 20.129])
+  shape (1, 2, 2, 26): quotas Rational{Int64}[24//31, 48//31, 48//31, 624//31]  ([0.774, 1.548, 1.548, 20.129])
+  shape (2, 2, 3, 26): quotas Rational{Int64}[16//11, 16//11, 24//11, 208//11]  ([1.455, 1.455, 2.182, 18.909])
+  shape (1, 3, 3, 26): quotas Rational{Int64}[8//11, 24//11, 24//11, 208//11]  ([0.727, 2.182, 2.182, 18.909])
+  shape (1, 1, 3, 34): quotas Rational{Int64}[8//13, 8//13, 24//13, 272//13]  ([0.615, 0.615, 1.846, 20.923])
+gadget UNSAT: true
+dropping any one profile -> SAT in 60 / 60 cases
+dropping any one shape   -> SAT in 5 / 5 cases
+big state never at label 1 (45 profiles) -> SAT
+CNF: 240 variables, 3576 clauses
+s UNSATISFIABLE
+kept clauses 1796 vars 240 steps 2021
+written Apportion4.lean: clauses 1796 vars 240 profiles 60
+h=23 gadget: 104 profiles -> UNSAT
