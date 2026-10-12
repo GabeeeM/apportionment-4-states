@@ -3,7 +3,7 @@ message: "If you use this result, please cite it as below."
 title: "Quota and population monotonicity are incompatible for four states at a fixed house size (Lean-verified)"
 authors:
   - family-names: Mack
-    given-names: Gabriel
+    given-names: Gabriel Alan
     orcid: "https://orcid.org/0009-0008-7111-6779"
 date-released: 2026-10-12
 repository-code: "https://github.com/GabeeeM/apportionment-4-states"
