@@ -1,5 +1,7 @@
 # Quota and population monotonicity are incompatible for four states at a fixed house size
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23320196.svg)](https://doi.org/10.5281/zenodo.23320196)
+
 **Papers:**
 - Gölz, Peters, Procaccia, *In This Apportionment Lottery, the House Always Wins*,
   [arXiv:2202.11061](https://arxiv.org/abs/2202.11061), §3.1:

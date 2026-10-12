@@ -5,6 +5,7 @@ authors:
   - family-names: Mack
     given-names: Gabriel Alan
     orcid: "https://orcid.org/0009-0008-7111-6779"
+doi: "10.5281/zenodo.23320196"
 date-released: 2026-10-12
 repository-code: "https://github.com/GabeeeM/apportionment-4-states"
 license: Apache-2.0
