@@ -37,7 +37,8 @@ no short hand proof was found. House size 23 is also impossible (104 vectors), b
 **Lean 4 (Mathlib).** [`Apportion4.lean`](Apportion4.lean) proves `Apportion4.no_quota_popmono_fixed_house`.
 Each clause the refutation uses is a lemma proved from quota and population monotonicity. The SAT refutation
 (LRAT) is replayed in the Lean kernel by Mathlib's `lrat_proof`, with no native code. The only Lean axioms used
-are `propext`, `Classical.choice` and `Quot.sound`. To check it, run `lake exe cache get && lake build` (about 4 minutes).
+are `propext`, `Classical.choice` and `Quot.sound`. To check it, run `lake exe cache get && lake build`
+(about 4 minutes).
 
 ## How it was found
 
