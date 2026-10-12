@@ -35,8 +35,8 @@ one vector makes a choice possible. [`PROOF.md`](PROOF.md) has a worked example 
 no short hand proof was found. House size 23 is also impossible (104 vectors), but that case is only SAT-checked.
 
 **Lean 4 (Mathlib).** [`Apportion4.lean`](Apportion4.lean) proves `Apportion4.no_quota_popmono_fixed_house`.
-Each constraint is a lemma proved from the two axioms, and the SAT refutation (LRAT) is replayed in the Lean
-kernel by Mathlib's `lrat_proof`, with no native code. The only axioms used are `propext`, `Classical.choice`
+Each clause the refutation uses is a lemma proved from the two axioms. The SAT refutation (LRAT) is replayed
+in the Lean kernel by Mathlib's `lrat_proof`, with no native code. The only axioms used are `propext`, `Classical.choice`
 and `Quot.sound`. To check it, run `lake exe cache get && lake build` (about 4 minutes).
 
 ## How it was found

@@ -1,9 +1,9 @@
 # Reproduce every number reported for "quota + population monotonicity, 4 states, fixed house size".
 #
-#   julia reproduce.jl          # ~3 min: gadget, UNSAT check, minimality, LRAT certificate, Apportion4.lean
+#   julia reproduce.jl          # ~15 s: gadget, UNSAT check, minimality, LRAT certificate, Apportion4.lean
 #   julia reproduce.jl full     # also the discovery runs (h=16,20,24 dominant families; ~1.5 h, ~25 GB RAM)
 #
-# Needs `cadical` on PATH and python3 (trim_lrat.py).
+# Needs `cadical` on PATH and python3 (trim_lrat.py); `full` also needs `z3`.
 include("explore.jl")
 
 const H = 24
